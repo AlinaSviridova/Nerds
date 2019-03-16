@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    height: 100%;
+    /* border: 1px solid red; */
+    /* width: auto; */
+    width: 1440px;
+     background-size:cover;
+
+
+}
+
+/* .whitebackgr{
+    
+      background-image: url("./img/map.jpg");
+      height:550px;
+      width: 1440px;
+       margin-top: -20px;
+      frameborder:0;
+      style: border:0 ;
+      allowfullscreen
+  }   */
+
+  .mapbackgr{
+    background-image: url("img/map.jpg");
+    height:430px;
+    width: 1440px;
+    margin-top: 100px;
+   
+  }
+
+.grid{
+    min-height: 100%;
+    display:grid;
+}
+
+a{
+    color: #000 !important;
+    text-decoration: none
+}
+
+/* https://ru.stackoverflow.com/questions/548287/Как-у-тега-a-убрать-визуальные-эффекты */
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+ 
+
+.logo{
+    padding-left: 50px;
+    padding-top: 60px;
+}
+.navbar1{
+    /* border: 1px solid red;  */
+    padding-top: 90px;
+    height: 100px;
+    text-align: center;
+    padding-left: 50px;
+    /* justify-content: center;
+    align-items: center;
+    align-content: center; */
+    color: black;
+}
+
+.navbar0{
+    padding-left: 80px;
+    /* border: 1px solid red;  */
+    height: 100px; 
+}
+
+.buttons{
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+h1{
+    font-size: 55px;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+}
+h5{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+.greyb{
+    margin-top: -15px;
+    width: 1440px;
+height: 450px;
+background-image: url("./img/grey_back.jpg");
+}
+.greyblock2 {
+margin-top: 10px;
+margin-left: 140px;
+width: 1120px;
+height: 400px;
+background-image: url("./img/grey_back.jpg");
+
+}
+
+.greyblock3{
+    margin-top: 110px;
+    /* padding-left: 140px; */
+    text-align: center;
+    
+}
+
+.filters{
+width: 260px;
+    border: 1px solid green;
+margin-left: 140px;
+margin-top: 180px;
+}
+
+
+.cost{
+    /* border: 1px solid rgb(210, 210, 210); ; */
+margin-top: 55px;
+height: 70px;
+ /* background-color: rgb(210, 210, 210);  */
+
+}
+
+.cost1{
+    /* border: 1px solid rgb(210, 210, 210); ; */
+margin-top: 55px;
+
+ /* background-color: rgb(210, 210, 210);  */
+
+}
+
+.special{
+    /* border: 1px solid red; */
+margin-top: 30px;
+margin-bottom: 30px;
+width: 260px; 
+}
+
+.inpt{
+    width: 260px; 
+
+}
+
+.container-3 {
+    width: 400px;
+    margin-left: 4px;
+    margin-right: 49px;
+    }
+
+.grid-b {
+    position: relative;
+       display: inline;
+       float: left;
+       margin-left:  10px;
+       margin-right: 10px;
+       padding-left:  0px;
+       padding-right: 0px;
+       } 
+
+       .img_catal {
+        margin-top:  20px;
+
+       }
+
+       .container{
+           width: 1200px;
+       }
+       .col{
+        width: 400px;
+    }
+
+    .containercatalog {
+        font-family: 'Pacifico', cursive;
+            font-family: 'Noto Serif', serif;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+          /* border: 1px solid red;  */
+          box-sizing: inherit;
+          flex-wrap: wrap;
+          margin-top: 200px;
+          margin-left: 140px;
+          width: 1160px;
+           
+    }
+
+    .contitems {
+        /* border: 1px solid blue;   */
+        width: 350px;
+        /* height: 1400px; */
+        align-content: space-between;
+        flex-grow: 1;
+        overflow:hidden;
+        box-sizing: inherit;
+        margin: 20px 20px 10px 20px;
+        
+    }
+
+    .text-center{
+        /* border: 1px solid blue; */
+        margin-top: 40px;
+    }
+
+
+    .contitems1 {
+        /* border: 1px solid green;   */
+        width: 250px;
+        /* height: 1400px; */
+        align-content: space-between;
+        flex-grow: 1;
+        overflow:hidden;
+        box-sizing: inherit;
+        margin: 20px 20px 10px 0px;
+        
+    }
+
+
+    .pagination1{
+        /* border: 1px solid green;  */
+padding-left: 480px;
+margin-top: 40px;
+    }
+
+/* .horizontalblock{
+    /* margin: 0px 0px 20px 0px; */
+    /* border: 1px solid green;  */
+/* } */ 
+
+
+
+/* .greyblock4{
+    margin-left: -50px;
+    padding-top: 10px;
+}
+
+.whiteBlock1{
+    margin-left: 120px;
+    margin-right: 140px;
+   padding-top: 70px;
+}
+
+.line{
+    margin-top: 50px;
+    margin-bottom: 60px;
+     margin-left: 120px; *//*
+
+
+/* .whiteBlock2{
+    margin-left: 120px;
+    margin-right: 140px;
+   
+}
+*/
+.whiteBlock3{
+    padding-top: 220px;
+    margin-left: 100px;
+}
+
+/*
+.whiteBlock3{
+    margin-left: 120px;
+    margin-right: 140px;
+    margin-top: 200px;
+}
+
+.greyblock5{
+    padding-top: 30px;
+    /* border: 1px solid blue; */
+
+
+/* 
+.greyblock7{
+   padding-top: 40px;   
+
+text-align: center;
+}
+
+
+
+    .grid-b {
+         position: relative;
+        display: inline;
+        float: left;
+        margin-left:  8px;
+        margin-right: 8px
+        padding-left:  0px;
+        padding-right: 0px;
+        } */
+
+  h3{
+            font-size: 36px;
+            font-family: 'Roboto', sans-serif;
+ }
+
+
+
+ .iconMap{
+    margin-left:  850px;
+    margin-top:  -250px;
+    /* border: 1px solid blue; */
+
+ } 
+ 
+ .form{
+    margin-top:  -240px;
+     /* border: 1px solid red; */
+     margin-left:  100px;
+    }
+
+ .form1{
+     position: relative;
+     z-index: 0.1;
+    margin-left:  65px;
+    margin-top:  -250px;
+ }
+
+ h4{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* Базовые стили слоя, затемнения и модального окна */
+.overlay {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+    /* фон затемнения */
+    background-color: rgba(0, 0, 0, 0.65);
+    position: fixed; /* фиксированное позиционирование */
+    cursor: default; /* тип курсора */
+    }
+     
+    /* активируем слой затемнения */
+    .overlay:target {
+    display: block;
+    }
+     
+    /* стили модального окна */
+    .popup {
+    top: -100%;
+    right: 0;
+    left: 50%;
+    font-size: 14px;
+    z-index: 20;
+    margin: 0;
+    width: 85%;
+    min-width: 320px;
+    max-width: 600px;
+    /* фиксированное позиционирование, окно стабильно при прокрутке */
+    position: fixed;
+    padding: 15px;
+    border: 1px solid #383838;
+    background: #fefefe;
+    /* скругление углов */
+
+    border-radius: 4px;
+    font: 14px/18px 'Tahoma', Arial, sans-serif;
+    /* внешняя тень */
+    box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
+    transform: translate(-50%, -500%);
+    transition: transform 0.6s ease-out;
+    }
+     
+    /* активируем модальный блок */
+    .overlay:target+.popup {
+     transform: translate(-50%, 0);
+    top: 20%;
+    }
+     
+    /* формируем кнопку закрытия */
+    .close {
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    padding: 0;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    background-color: rgba(61, 61, 61, 0.8);
+    box-shadow: 0px 0px 10px #000;
+    text-align: center;
+    text-decoration: none;
+    font: 13px/20px 'Tahoma', Arial, sans-serif;
+    font-weight: bold;
+    transition: all ease .8s;
+    }
+     
+    .close:before {
+    color: rgba(255, 255, 255, 0.9);
+    content: "X";
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+    font-size: 12px;
+    }
+     
+    .close:hover {
+    background-color: rgba(252, 20, 0, 0.8);
+    transform: rotate(360deg);
+    text-decoration: none;
+    }
+
+
+    #win1{
+        text-decoration: none; 
+    }
